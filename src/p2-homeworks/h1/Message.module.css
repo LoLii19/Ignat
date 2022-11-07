@@ -1,0 +1,50 @@
+.message {
+color: aquamarine;
+}
+.time {
+    color: darkslategray;
+    padding-left: 90px;
+    text-align: right;
+}
+
+.border {
+    border: 3px khaki solid;
+    width: 320px;
+    /*display: block;*/
+    background-color: khaki;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bordertext{
+    background-color: darkolivegreen;
+    border: 5px darkolivegreen solid;
+    width: 210px;
+    padding-left: 18px;
+    border-radius: 20px;
+    margin-left: 80px;
+    /*float: right;*/
+    position: relative;
+}
+.bordertext::before {
+    content: '';
+    position: absolute;
+    left: -25px; bottom: -5px;
+    border: 20px solid transparent;
+    border-right: 20px solid darkolivegreen;
+    border-bottom: 20px solid darkolivegreen;
+    /*padding-left: ;*/
+}
+
+
+.name {
+color: blueviolet;
+}
+
+.img {
+    width:70px;
+    height: 70px;
+    border-radius: 30px;
+    float: left;
+}
